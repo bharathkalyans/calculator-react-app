@@ -1,4 +1,4 @@
-import {ACTIONS} from "./App.jsx";
+import {ACTIONS} from "./reducerActions.js";
 
 export default function OperationButton({dispatch, operation}) {
     return <button onClick={() => {

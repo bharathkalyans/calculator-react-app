@@ -1,9 +1,9 @@
-import {ACTIONS} from "./App.jsx";
+import {ACTIONS} from "./reducerActions.js";
 
 export default function DigitButton({dispatch, digit}) {
     return (
         <button onClick={
-            () => dispatch({type: ACTIONS.ADD_DIGIT, payload: {digit}}) }>
+            () => dispatch({type: ACTIONS.ADD_DIGIT, payload: {digit}})}>
             {digit}
         </button>
     );
