@@ -12,7 +12,7 @@
 
 body {
     margin: 0;
-    background: linear-gradient(to right, black, gold);
+    background: linear-gradient(to right, #333399, #ff00cc);
 }
 
 .calculator-grid {
